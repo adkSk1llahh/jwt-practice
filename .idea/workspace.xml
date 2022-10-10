@@ -11,11 +11,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="af0754b7-0dd3-4022-8f77-3825cfbe9bde" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/server/service/mail-service.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/service/token-service.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/service/user-service.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/dtos/user-dto.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/.env" beforeDir="false" afterPath="$PROJECT_DIR$/server/.env" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/controllers/user-controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/controllers/user-controller.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/server/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/service/mail-service.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/service/mail-service.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/service/token-service.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/service/token-service.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/service/user-service.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/service/user-service.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,6 +53,23 @@
       <recent name="C:\Users\sk1ll\OneDrive\Рабочий стол\jwt" />
     </key>
   </component>
+  <component name="RunManager">
+    <configuration name="dev" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/server/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="dev" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.dev" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -60,7 +81,7 @@
       <workItem from="1663688307505" duration="3350000" />
       <workItem from="1663770887631" duration="496000" />
       <workItem from="1664808165196" duration="1145000" />
-      <workItem from="1665397670461" duration="295000" />
+      <workItem from="1665397670461" duration="3597000" />
     </task>
     <task id="LOCAL-00001" summary="qwe">
       <created>1663692075686</created>
@@ -69,7 +90,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663692075686</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="1010">
+      <created>1665398045396</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1665398045396</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -89,7 +117,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="qwe" />
-    <option name="LAST_COMMIT_MESSAGE" value="qwe" />
+    <MESSAGE value="1010" />
+    <option name="LAST_COMMIT_MESSAGE" value="1010" />
   </component>
   <component name="WindowStateProjectService">
     <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1663771160476">
@@ -100,6 +129,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="177" height="327" key="Git.Branch.Popup/0.0.1920.1040@0.0.1920.1040" timestamp="1663692163321" />
+    <state width="1899" height="274" key="GridCell.Tab.0.bottom" timestamp="1665401441175">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="274" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1665401441175" />
+    <state width="1899" height="274" key="GridCell.Tab.0.center" timestamp="1665401441175">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="274" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1665401441175" />
+    <state width="1899" height="274" key="GridCell.Tab.0.left" timestamp="1665401441175">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="274" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1665401441175" />
+    <state width="1899" height="274" key="GridCell.Tab.0.right" timestamp="1665401441175">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="274" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1665401441175" />
     <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1663692080981">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

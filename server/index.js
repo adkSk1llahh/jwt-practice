@@ -14,10 +14,10 @@ app.use(cookieParser())
 app.use(cors())
 app.use('/api', router)
 
-const start = async () => {
+const start = async (uri, callback) => {
   try {
     await mongoose.connect(process.env.DB_URL, {
-      useNewUrlParse: true,
+      useNewUrlParser: true,
       useUnifiedTopology: true
     })
     app.listen(PORT, () => console.log(`server started ${PORT}`))
