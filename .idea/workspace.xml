@@ -11,12 +11,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="af0754b7-0dd3-4022-8f77-3825cfbe9bde" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/server/dtos/user-dto.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/.env.local" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server/.env" beforeDir="false" afterPath="$PROJECT_DIR$/server/.env" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server/controllers/user-controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/controllers/user-controller.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/dtos/user-dto.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/dtos/user-dto.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/models/token-model.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/models/token-model.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/models/user-model.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/models/user-model.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/server/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/router/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server/service/mail-service.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/service/mail-service.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server/service/token-service.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/service/token-service.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server/service/user-service.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/service/user-service.js" afterDir="false" />
@@ -40,17 +45,18 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/server/service" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/server" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Proj\jwt-practice\server\service" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\sk1ll\OneDrive\Рабочий стол\jwt" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Proj\jwt-practice\server" />
+      <recent name="C:\Proj\jwt-practice\server\service" />
     </key>
   </component>
   <component name="RunManager">
@@ -81,7 +87,9 @@
       <workItem from="1663688307505" duration="3350000" />
       <workItem from="1663770887631" duration="496000" />
       <workItem from="1664808165196" duration="1145000" />
-      <workItem from="1665397670461" duration="3597000" />
+      <workItem from="1665397670461" duration="6059000" />
+      <workItem from="1665977056738" duration="1201000" />
+      <workItem from="1666071710929" duration="4415000" />
     </task>
     <task id="LOCAL-00001" summary="qwe">
       <created>1663692075686</created>
@@ -97,7 +105,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665398045396</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="1010">
+      <created>1665402665714</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1665402665714</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -121,9 +136,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="1010" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1663771160476">
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1666087112192">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1666087112192" />
     <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1663771160476" />
     <state width="177" height="327" key="Git.Branch.Popup" timestamp="1663692163321">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -145,9 +161,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1899" height="274" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1665401441175" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1663692080981">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1665402674753">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1665402674753" />
     <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1663692080981" />
     <state x="777" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1663692152413">
       <screen x="0" y="0" width="1920" height="1040" />
